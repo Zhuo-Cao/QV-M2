@@ -5,7 +5,7 @@ This repository is the official implementation of the paper **When One Moment Is
 > 
 > The University of Queensland, Australia
 
-[**Preparation**](#-Preparation) | [**Inference**](#-Inference) | [**Evaluation**](#-Evaluation) | [**Citation**](#-Citation) | [**Acknowledgements**](#-Acknowledgements)
+[**Preparation**](#-Preparation) | [**Inference**](#-Inference) | [**Evaluation**](#-Evaluation) | [**Citation**](#-Citation) | [**Acknowledgements**](#Acknowledgements)
 
 <p align="center"><img width="850" src="figure/Framework.png"></p>
 
@@ -25,7 +25,7 @@ This repository is the official implementation of the paper **When One Moment Is
    - Please find annotation files under `data/` and update any path fields that differ on your machine.
    - We provide checkpoints [here](https://www.dropbox.com/scl/fo/zu56dx7o889dym910203m/ABxQWd8tJuUUkI3C4_CEgz8?rlkey=t87wijuxii0ll93six6xwnsx1&st=x15l0nfu&dl=0). Please download and place them under `results/` directory. Configuration can be find in each ``opt.json`` file.
 
-## ▶️ Inference
+## 🔍 Inference
 
 All entry points go through `FlashMMR/inference.py`. The script expects:
 
@@ -74,5 +74,5 @@ If you find FlashMMR useful for your research, please consider citing:
 }
 ```
 
-##  Acknowledgements
+## Acknowledgements
 This work is supported by Australian Research Council (ARC) Discovery Project DP230101753 and the code is based on [FlashVTG](https://github.com/Zhuo-Cao/FlashVTG).
